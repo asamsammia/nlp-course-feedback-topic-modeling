@@ -12,4 +12,4 @@ def fit_lda_tfidf(docs, n_topics=5, max_features=500):
         learning_method='batch',
     )
     lda.fit(X)
-    return vec, lda, X\n
+    return vec, lda, X
